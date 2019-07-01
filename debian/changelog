@@ -1,3 +1,10 @@
+lliurex-profile-d (0.22) bionic; urgency=medium
+
+  * And Ubiquity stricks back again. fstab is calculated in the wrong order if
+    LC_ALL is in the environment, no matter the value.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 01 Jul 2019 08:49:32 +0200
+
 lliurex-profile-d (0.21) bionic; urgency=medium
 
   * Trying LC_ALL fix again. JClic strikes back
