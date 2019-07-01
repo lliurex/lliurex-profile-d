@@ -8,6 +8,12 @@ if [ -n "${LANG}" ]; then
 
 	# Code above should be good enough for valencian locale to work properly
 	# ubiquity doesn't like this variable
-	export LC_ALL=$LANG
+
+	if [ $USER -gt 999 ]; then
+
+		if [ $RC = 0 ]; then
+			export LC_ALL=$LANG
+		fi
+	fi
 fi
 
