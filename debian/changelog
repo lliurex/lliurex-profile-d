@@ -1,3 +1,9 @@
+lliurex-profile-d (0.23) bionic; urgency=medium
+
+  * Fixed LC_ALL script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2019 09:45:04 +0200
+
 lliurex-profile-d (0.22) bionic; urgency=medium
 
   * And Ubiquity stricks back again. fstab is calculated in the wrong order if
