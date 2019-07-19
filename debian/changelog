@@ -1,3 +1,9 @@
+lliurex-profile-d (0.24) bionic; urgency=medium
+
+  * Fixed LC_ALL script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 19 Jul 2019 11:45:04 +0200
+
 lliurex-profile-d (0.23) bionic; urgency=medium
 
   * Fixed LC_ALL script
