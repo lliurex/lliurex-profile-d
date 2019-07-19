@@ -12,7 +12,7 @@ if [ -n "${LANG}" ]; then
 	if [ $UID -gt 999 ]; then
 
 		if [ $RC = 0 ]; then
-			export LC_ALL=$LANG
+			export LC_ALL=ca_ES.UTF-8
 		fi
 	fi
 fi
