@@ -6,7 +6,7 @@ if [ -n "${LANG}" ]; then
 		echo "run_im none" > $HOME/.xinputrc
 	fi
 
-	# ubiquity doesn't like ariable LC_ALL 
+	# ubiquity doesn't like variable LC_ALL 
 
 	if [ $UID -gt 999 ]; then
 
