@@ -6,13 +6,13 @@ if [ -n "${LANG}" ]; then
 		echo "run_im none" > $HOME/.xinputrc
 	fi
 
-	# Code above should be good enough for valencian locale to work properly
-	# ubiquity doesn't like this variable
+	# ubiquity doesn't like ariable LC_ALL 
 
 	if [ $UID -gt 999 ]; then
 
+		# this is gonna haunt us sooner or later
 		if [ $RC = 0 ]; then
-			export LC_ALL=$LANG
+			export LC_ALL=ca_ES.UTF-8
 		fi
 	fi
 fi
