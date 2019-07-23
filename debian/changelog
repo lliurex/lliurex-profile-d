@@ -1,3 +1,9 @@
+lliurex-profile-d (0.26) bionic; urgency=medium
+
+  * Changed LC_ALL to LC_CTYPE
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 23 Jul 2019 13:45:14 +0200
+
 lliurex-profile-d (0.25) bionic; urgency=medium
 
   * Use new xdg_translator
