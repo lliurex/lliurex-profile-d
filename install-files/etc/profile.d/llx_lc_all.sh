@@ -12,7 +12,7 @@ if [ -n "${LANG}" ]; then
 
 		# this is gonna haunt us sooner or later
 		if [ $RC = 0 ]; then
-			export LC_ALL=ca_ES.UTF-8
+			export LC_CTYPE=ca_ES.UTF-8
 		fi
 	fi
 fi
