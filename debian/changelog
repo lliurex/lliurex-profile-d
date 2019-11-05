@@ -1,3 +1,9 @@
+lliurex-profile-d (0.27) bionic; urgency=medium
+
+  * Trying to fix wine path
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 05 Nov 2019 14:36:51 +0100
+
 lliurex-profile-d (0.26) bionic; urgency=medium
 
   * Changed LC_ALL to LC_CTYPE
