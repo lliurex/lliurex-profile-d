@@ -1,0 +1,21 @@
+PLASMALOCALE="${HOME}/.config/plasma-locale-settings.sh"
+templistlanguages=$(mktemp)
+orderedlistlanguages=$(mktemp)
+getlanguagescript=$(mktemp)
+if [ -e "$PLASMALOCALE" ]; then
+        cat $PLASMALOCALE | grep -P "^[^#]" | cut -d " " -f2 > $templistlanguages
+fi
+grep -P "^[^#]" /etc/default/locale >> $templistlanguages
+echo "LANG=en" >> $templistlanguages
+tac $templistlanguages | awk '{split($0,a,"="); listvars[a[1]]=a[2];}END{for (key in listvars) {print key"="listvars[key]}}' > ${orderedlistlanguages}
+rm ${templistlanguages}
+
+LANGENV="$(cat ${orderedlistlanguages} | tr "\n" " ")"
+cat << EOF > $getlanguagescript
+#!/bin/sh
+$LANGENV xdg_translator Documents
+EOF
+chmod +x $getlanguagescript
+PATH_TO_WINE_PREFIX="$($getlanguagescript)"
+export WINEPREFIX=$HOME/$PATH_TO_WINE_PREFIX/.wine
+rm ${executable} ${getlanguagescript}
