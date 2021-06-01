@@ -1,0 +1,21 @@
+Source: lliurex-profile-d
+Section: admin
+Priority: extra
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: debhelper (>= 10), n4d-dev
+Standards-Version: 4.1.2
+Homepage: http://www.lliurex.net
+Vcs-Git: https://github.com/lliurex/lliurex-profile-d.git
+
+Package: lliurex-profile-d
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Custom etc profile scripts
+ Custom etc profile scripts for lliurex flavors
+
+Package: lliurex-profile-d-class
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Custom etc profile scripts for class
+ Custom etc profile scripts for lliurex flavors
+ 

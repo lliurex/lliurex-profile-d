@@ -1,0 +1,156 @@
+lliurex-profile-d (0.30) focal; urgency=medium
+
+  * First focal release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 01 Jun 2021 11:11:13 +0200
+
+lliurex-profile-d (0.27) bionic; urgency=medium
+
+  * Trying to fix wine path
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 05 Nov 2019 14:36:51 +0100
+
+lliurex-profile-d (0.26) bionic; urgency=medium
+
+  * Changed LC_ALL to LC_CTYPE
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 23 Jul 2019 13:45:14 +0200
+
+lliurex-profile-d (0.25) bionic; urgency=medium
+
+  * Use new xdg_translator
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 23 Jul 2019 09:37:33 +0200
+
+lliurex-profile-d (0.24) bionic; urgency=medium
+
+  * Fixed LC_ALL script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 19 Jul 2019 11:45:04 +0200
+
+lliurex-profile-d (0.23) bionic; urgency=medium
+
+  * Fixed LC_ALL script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2019 09:45:04 +0200
+
+lliurex-profile-d (0.22) bionic; urgency=medium
+
+  * And Ubiquity stricks back again. fstab is calculated in the wrong order if
+    LC_ALL is in the environment, no matter the value.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 01 Jul 2019 08:49:32 +0200
+
+lliurex-profile-d (0.21) bionic; urgency=medium
+
+  * Trying LC_ALL fix again. JClic strikes back
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 20 Jun 2019 09:26:21 +0200
+
+lliurex-profile-d (0.20) bionic; urgency=medium
+
+  * Migrated to Bionic
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 05 Dec 2018 17:03:17 +0100
+
+lliurex-profile-d (0.16) xenial; urgency=high
+
+  * Disabling exprt LC_ALL. xinput fix should be enough. Ubiquity doesn't like LC_ALL being exported.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 10 Jul 2017 11:58:18 +0200
+
+lliurex-profile-d (0.15) xenial; urgency=high
+
+  * Adding system proxy dconf configuration in thin clients
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 05 Jun 2017 14:58:37 +0200
+
+lliurex-profile-d (0.14) xenial; urgency=high
+
+  * Making sure everyone has xinputrc
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 25 May 2017 10:15:22 +0200
+
+lliurex-profile-d (0.13) xenial; urgency=high
+
+  * Fixing accents in old isos and JClic
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 22 May 2017 12:56:27 +0200
+
+lliurex-profile-d (0.12-3) xenial; urgency=medium
+
+  * add set_proxy_thin_clients.sh setting proxy for light clients allowing lliurex-guard url filtering
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 15 May 2017 09:37:10 +0200
+
+lliurex-profile-d (0.12-2) xenial; urgency=high
+
+  * Testing the waters with LC_ALL = ca_ES.UTF-8@valencia
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 20 Jan 2017 13:29:59 +0100
+
+lliurex-profile-d (0.12-1) xenial; urgency=medium
+
+  * Remove duplicated file
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 17 Jan 2017 14:40:26 +0100
+
+lliurex-profile-d (0.12) xenial; urgency=medium
+
+  * Add /etc/profile customization to fix lc_all
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 17 Jan 2017 14:01:45 +0100
+
+lliurex-profile-d (0.11) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 02 Mar 2016 14:28:26 +0100
+
+lliurex-profile-d (0.8) trusty; urgency=high
+
+  * Removed echo from stdout when checking variables
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jun 2015 10:41:03 +0200
+
+lliurex-profile-d (0.7) trusty; urgency=high
+
+  * Recalculating PATH variable
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 09 Jun 2015 10:19:51 +0200
+
+lliurex-profile-d (0.6) trusty; urgency=high
+
+  * Updated wine path 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Tue, 14 Apr 2015 14:28:42 +0200
+
+lliurex-profile-d (0.5) trusty; urgency=high
+
+  * Added translation for WINEPREFIX 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Tue, 14 Apr 2015 12:30:49 +0200
+
+lliurex-profile-d (0.4) trusty; urgency=high
+
+  * Added new binary for WINEPREFIX 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Wed, 08 Apr 2015 21:47:16 +0200
+
+lliurex-profile-d (0.3) trusty; urgency=medium
+
+  * First trusty release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 15 Jan 2015 13:35:20 +0100
+
+lliurex-profile-d (0.2) precise; urgency=low
+
+  * UNRELEASED
+
+ -- Hector Garcia Huerta <cless@anubis.lliurex.fs>  Thu, 09 May 2013 11:59:10 +0200
+
+lliurex-profile-d (0.1) precise; urgency=low
+
+  * Initial release. 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 09 May 2013 11:56:26 +0200
