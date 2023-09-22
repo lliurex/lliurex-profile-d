@@ -1,3 +1,9 @@
+lliurex-profile-d (0.36) jammy; urgency=medium
+
+  * Added /usr/games to path 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 22 Sep 2023 09:54:53 +0200
+
 lliurex-profile-d (0.35) jammy; urgency=medium
 
   * First jammy release
